@@ -12,7 +12,7 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
-  const apiKey = "e4d577fa";
+  const apiKey = "103e6d94";
   const apiUrl = `https://omdbapi.com/?apiKey=${apiKey}`;
 
   // https://omdbapi.com/?apiKey=e4d577fa&s=superman
@@ -62,7 +62,7 @@ const App = () => {
           <h2>Nenhum filme encontrado 😶</h2>
         </div>
       )}
-        
+
       <Footer link={"https:github.com.br"}>Ribeirinho</Footer>
     </div>
   );
