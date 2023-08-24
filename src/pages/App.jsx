@@ -39,8 +39,7 @@ const handleKeyPress = (e) => {
             <img src={logo} alt="Logo devFlix" />
         </div>
         <div className="search">
-         <input
-          value={searchTerm}
+         <input value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)} 
           onKeyDown={handleKeyPress}
           placeholder="Pesquise por filmes"
@@ -57,6 +56,8 @@ const handleKeyPress = (e) => {
                 {movies.map((movie) => (
                 <MovieCard key={movie.imdbID} movies = {movie} />
                 ))}
+
+
             </div>
         ): (
             <div className="empty">
