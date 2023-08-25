@@ -94,6 +94,7 @@
     flex: 1;
 }
 
+
 .desc{
     padding: 0 2em 2em;
     text-align: justify;
@@ -105,11 +106,24 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 430px){
     .movieModal{
         width: 320px;
         margin-top: 2em;
     }
+}
+
+.movieType h1{
+    font-size: 20pt;
+}
+
+.movieInfo img{
+    height: 220px;
+}
+
+.containerMisc{
+    padding-top: 6em;
+    display: block;
 }
 
 .desc{
